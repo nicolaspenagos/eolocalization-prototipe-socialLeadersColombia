@@ -34,3 +34,9 @@ C:\Users\usuario\Desktop\Hola\gmap-and-open-data-project\model\bin\Debug\model.p
 C:\Users\usuario\Desktop\Hola\gmap-and-open-data-project\model\obj\Debug\model.csprojAssemblyReference.cache
 C:\Users\usuario\Desktop\Hola\gmap-and-open-data-project\model\obj\Debug\model.exe
 C:\Users\usuario\Desktop\Hola\gmap-and-open-data-project\model\obj\Debug\model.pdb
+C:\Users\Otro\source\repos\gmap-and-open-data-project\model\bin\Debug\model.exe.config
+C:\Users\Otro\source\repos\gmap-and-open-data-project\model\bin\Debug\model.exe
+C:\Users\Otro\source\repos\gmap-and-open-data-project\model\bin\Debug\model.pdb
+C:\Users\Otro\source\repos\gmap-and-open-data-project\model\obj\Debug\model.csprojAssemblyReference.cache
+C:\Users\Otro\source\repos\gmap-and-open-data-project\model\obj\Debug\model.exe
+C:\Users\Otro\source\repos\gmap-and-open-data-project\model\obj\Debug\model.pdb
