@@ -177,4 +177,6 @@ C:\Users\Otro\source\repos\gmap-and-open-data-project\Gmapsapp\obj\Debug\Gmapsap
 C:\Users\Otro\source\repos\gmap-and-open-data-project\Gmapsapp\obj\Debug\Gmapsapp.exe
 C:\Users\Otro\source\repos\gmap-and-open-data-project\Gmapsapp\obj\Debug\Gmapsapp.pdb
 C:\Users\Otro\source\repos\gmap-and-open-data-project\Gmapsapp\obj\Debug\Gmapsapp.UserControl1.resources
+C:\Users\Otro\source\repos\gmap-and-open-data-project\Gmapsapp\obj\Debug\Gmapsapp.login.resources
+C:\Users\Otro\source\repos\gmap-and-open-data-project\Gmapsapp\obj\Debug\Gmapsapp.UserControl2.resources
 C:\Users\Otro\source\repos\gmap-and-open-data-project\Gmapsapp\obj\Debug\Gmapsapp.csprojAssemblyReference.cache

@@ -59,20 +59,20 @@ namespace Gmapsapp
 
             var polygon = new GMapPolygon(points, "MyArea")
             {
-                Stroke = new Pen(Color.Blue, 2),
-                Fill = new SolidBrush(Color.FromArgb(50, 0, 0, 255))
+                Stroke = new Pen(Color.Violet, 2),
+                Fill = new SolidBrush(Color.FromArgb(50, 255, 51, 199))
             };
 
             var polygonSo = new GMapPolygon(pointsSo, "MyAreaSo")
             {
-                Stroke = new Pen(Color.Red, 2),
-                Fill = new SolidBrush(Color.FromArgb(50, 255, 0, 0))
+                Stroke = new Pen(Color.Violet, 2),
+                Fill = new SolidBrush(Color.FromArgb(50, 255, 51, 199))
             };
 
             var polygonS = new GMapPolygon(pointsS, "MyAreaS")
             {
-                Stroke = new Pen(Color.Green, 2),
-                Fill = new SolidBrush(Color.FromArgb(50, 0, 153, 57))
+                Stroke = new Pen(Color.Violet, 2),
+                Fill = new SolidBrush(Color.FromArgb(50, 255, 51, 199))
             };
 
 
@@ -104,15 +104,15 @@ namespace Gmapsapp
             points1.Add(new PointLatLng(8.984075876127989, -73.1989844606689));
             GMapRoute routePoints1 = new GMapRoute(points1, "Route1");
             route1.Routes.Add(routePoints1);
-           // gmap1.Overlays.Add(route1);
+            // gmap1.Overlays.Add(route1);
 
 
 
 
-            Bitmap bmpMarker = (Bitmap)Image.FromFile("..\\..\\Properties\\marker1.png");
-            Bitmap bmpMarker1 = (Bitmap)Image.FromFile("..\\..\\Properties\\leaderPic.png");
+            Bitmap bmpMarker = (Bitmap)Image.FromFile("..\\..\\Properties\\a-01.png");
+            Bitmap bmpMarker1 = (Bitmap)Image.FromFile("..\\..\\Properties\\B-01.png");
             GMapOverlay markers = new GMapOverlay("markers");
-           // List<Leader> currentList = p.getLeaders();
+            // List<Leader> currentList = p.getLeaders();
             //int N = currentList.Count;
             GMapMarker marker1 = new GMarkerGoogle(
               new PointLatLng(10.9799669, -74.8013085),
@@ -207,9 +207,25 @@ namespace Gmapsapp
 
         }
 
+     
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Ayudaaa");
+        }
+
+        private void gmap1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Space)
+            {
+                MessageBox.Show("MARIA ANGELA TORRES ESTA SUFRIENDO UN EMERGENCIA Lat: 4.05094603392196 Lon: -73.90967874235682");
+                GMapOverlay markers = new GMapOverlay("markers");
+                GMapMarker marker9 = new GMarkerGoogle(
+     new PointLatLng(3.4760976694812626, -69.82226813188387),
+     GMarkerGoogleType.blue_dot);
+                markers.Markers.Add(marker9);
+                gmap1.Overlays.Add(markers);
+
+            }
         }
     }
 }
