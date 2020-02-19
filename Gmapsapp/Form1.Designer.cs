@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.userControl21 = new Gmapsapp.UserControl2();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -39,6 +38,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.second = new Gmapsapp.UserControl2();
             this.login1 = new Gmapsapp.login();
+            this.userControl21 = new Gmapsapp.UserControl2();
             this.userControl12 = new Gmapsapp.UserControl1();
             this.userControl11 = new Gmapsapp.UserControl1();
             this.panel2.SuspendLayout();
@@ -55,13 +55,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(288, 159);
             this.panel2.TabIndex = 4;
-            // 
-            // userControl21
-            // 
-            this.userControl21.Location = new System.Drawing.Point(0, 0);
-            this.userControl21.Name = "userControl21";
-            this.userControl21.Size = new System.Drawing.Size(1333, 762);
-            this.userControl21.TabIndex = 8;
             // 
             // panel1
             // 
@@ -132,17 +125,24 @@
             // 
             // second
             // 
-            this.second.Location = new System.Drawing.Point(-2, 0);
+            this.second.Location = new System.Drawing.Point(89, 159);
             this.second.Name = "second";
             this.second.Size = new System.Drawing.Size(1333, 762);
             this.second.TabIndex = 8;
             // 
             // login1
             // 
-            this.login1.Location = new System.Drawing.Point(-5, 0);
+            this.login1.Location = new System.Drawing.Point(-5, -27);
             this.login1.Name = "login1";
             this.login1.Size = new System.Drawing.Size(1378, 748);
             this.login1.TabIndex = 5;
+            // 
+            // userControl21
+            // 
+            this.userControl21.Location = new System.Drawing.Point(0, 0);
+            this.userControl21.Name = "userControl21";
+            this.userControl21.Size = new System.Drawing.Size(1333, 762);
+            this.userControl21.TabIndex = 8;
             // 
             // userControl12
             // 
@@ -170,8 +170,9 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.userControl12);
             this.Controls.Add(this.userControl11);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "FURA";
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
